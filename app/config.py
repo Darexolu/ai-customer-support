@@ -18,3 +18,6 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+
+# 45mins 32secs
