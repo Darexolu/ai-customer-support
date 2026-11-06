@@ -100,6 +100,3 @@ def get_section(section: str) -> list[dict]:
             "select title, content from knowledge_base where section = %s order by id",
             (section,),
         ).fetchall()
-
-
-# 1hr 23mins 26secs
